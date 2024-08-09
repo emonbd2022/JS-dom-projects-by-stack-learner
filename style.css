@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-size: 16px;
+    background-color: #000; /* Assuming you want a black background */
+    width: 100vw;
+    height: 100vh;
+    display: flex; /* Add this line */
+    justify-content: center; /* Add this line */
+    align-items: center; /* Add this line */
+    margin: 0; /* Ensure there is no default margin */
+}
+
+.container {
+    border: 2px solid #fff; /* White border */
+    border-radius: 0.25rem;
+    padding: 1rem 3rem;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+h1{
+    text-align: center;
+}
+
+#change-btn {
+    border: 2px solid #fff; /* White border */
+    border-radius: 0.25rem;
+    padding: 1rem 3rem;
+    background-color: #000; /* You can change this to any color you prefer */
+    color: #fff;
+    margin: 1rem 0;
+    font-size: 18px;
+    font-size: large;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    display: inline-block;
+}
